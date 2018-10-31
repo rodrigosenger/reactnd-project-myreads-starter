@@ -5,8 +5,10 @@
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
+    "enzyme": "^3.7.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

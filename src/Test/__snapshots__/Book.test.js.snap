@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering a book 1`] = `
+<div
+  className="book"
+>
+  <div
+    className="book-top"
+  >
+    <div
+      className="book-cover"
+      style={
+        Object {
+          "backgroundImage": "url(http://books.google.com/books/content?id=fhoonlqqGP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)",
+          "height": 193,
+          "width": 128,
+        }
+      }
+    />
+    <div
+      className="book-shelf-changer"
+    >
+      <select
+        onChange={[Function]}
+        value="currentlyReading"
+      >
+        <option
+          disabled={true}
+          id="move_fhoonlqqGP8C"
+          value="move"
+        >
+          Move to...
+        </option>
+        <option
+          id="currentlyReading_fhoonlqqGP8C"
+          value="currentlyReading"
+        >
+          Currently Reading
+        </option>
+        <option
+          id="wantToRead_fhoonlqqGP8C"
+          value="wantToRead"
+        >
+          Want to Read
+        </option>
+        <option
+          id="read_fhoonlqqGP8C"
+          value="read"
+        >
+          Read
+        </option>
+        <option
+          id="none_fhoonlqqGP8C"
+          value="none"
+        >
+          None
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="book-title"
+  >
+    Universal Artificial Intelligence
+  </div>
+  <div
+    className="book-authors"
+  >
+    Marcus Hutter
+  </div>
+</div>
+`;
