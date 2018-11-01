@@ -10,13 +10,9 @@ class BooksApp extends React.Component {
     books: []
   }
 
-  componentDidMount() {
-    getAll()
-      .then((books) => {
-        this.setState(() => ({
-          books
-        }))
-      })
+  async componentDidMount() {
+    const books = await getAll();
+    this.setState({books});
   }
 
   changeBookShelf = (newBook, newShelf) => {

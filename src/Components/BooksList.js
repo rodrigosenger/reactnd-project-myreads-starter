@@ -14,6 +14,7 @@ class BooksList extends React.Component {
     const wantToReadBooks = books.filter(book => book.shelf === 'wantToRead');
     const currentlyReadingBooks = books.filter(book => book.shelf === 'currentlyReading');
     const readBooks = books.filter(book => book.shelf === 'read');
+    
     return (
       <div className="list-books">
         <div className="list-books-title">

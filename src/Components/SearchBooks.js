@@ -18,7 +18,6 @@ class SearchBooks extends React.Component {
   search = query => {
       !query && (query = '');
       search(query, 20).then(result => {
-        console.log(result);
         if (result.error) {
           this.setState({
             error: true,
